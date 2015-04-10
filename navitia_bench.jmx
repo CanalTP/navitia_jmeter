@@ -319,7 +319,7 @@ fstream.close();</stringProp>
             <idleTime>true</idleTime>
           </value>
         </objProp>
-        <stringProp name="filename">/home/antoine/run/navitia/bench/jmeter/paris_ujson.csv</stringProp>
+        <stringProp name="filename">results.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Arbre de résultats" enabled="true">
