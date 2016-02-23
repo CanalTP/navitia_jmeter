@@ -34,7 +34,7 @@
           <boolProp name="recycle">false</boolProp>
           <stringProp name="shareMode">Current thread group</stringProp>
           <boolProp name="stopThread">true</boolProp>
-          <stringProp name="variableNames">request_id,from_lat,from_lon,to_lat,to_lon,maxWalkDistance,date,time,date_time,routerId,mode,request_source,arriveBy,transferPenalty,hour</stringProp>
+          <stringProp name="variableNames">request_id,from_lat,from_lon,to_lat,to_lon,maxWalkDistance,date,time,date_time,routerId,mode,request_source,arriveBy,transferPenalty,hour,min_nb_journeys</stringProp>
         </CSVDataSet>
         <hashTree/>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -79,6 +79,13 @@
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">id</stringProp>
+                </elementProp>
+                <elementProp name="min_nb_journeys" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">${min_nb_journeys}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">min_nb_journeys</stringProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
