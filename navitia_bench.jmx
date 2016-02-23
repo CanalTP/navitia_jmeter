@@ -314,7 +314,7 @@ fstream.close();</stringProp>
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">results.csv</stringProp>
+          <stringProp name="filename">results-journeys.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
